@@ -19,11 +19,9 @@
 
 <body style="margin: 0">
     <div id="control_panel" class="control_panel">
-		<img src="favicon.ico" style="vertical-align: middle"></img>
+		<img src="favicon.ico" style="vertical-align: middle"/>
         <p id="loading_text">Loading libraries, please wait a bit...</p>
-		<p id="original_link"><a href="http://a.teall.info/dice">Original Site</a></p>
-		<p id="original_source"><a href="http://www.teall.info/2014/01/online-3d-dice-roller.html">Original Source</a></p>
-		<p id="repo_link"><a href="https://github.com/Matteas-Eden/dice-roller">Link to GitHub repo</a></p>
+		<p id="repo_link"><a href="https://github.com/MingGH/dice-roller">GitHub 仓库链接</a></p>
         <!-- <p id="info_text"><a href="/mdice">Multiplayer version</a></p> -->
     </div>
     <div id="info_div" style="display: none">
@@ -32,21 +30,21 @@
         </div>
         <div class="center_field">
             <div class="bottom_field">
-                <span id="labelhelp">Click once to start again or click and drag to re-roll</span>
+                <span id="labelhelp">点击一次重新开始，或点击并拖动重新滚动</span>
             </div>
         </div>
     </div>
     <div id="selector_div" style="display: none">
         <div class="center_field">
             <div id="sethelp">
-                Choose your set of dice by clicking the dice on-screen or via direct input using notation,<br/>
-                then click and drag anywhere on screen or press the throw button to roll.
+                通过点击屏幕上的骰子或使用符号直接输入来选择骰子，<br/>然后点击并拖动屏幕上的任意位置或按下掷骰按钮进行掷骰子。
+                然后点击并拖动屏幕上的任意位置，或按下投掷按钮进行掷骰子。
             </div>
         </div>
         <div class="center_field">
             <input type="text" id="set" value="4d6"></input><br/>
-            <button id="clear">clear</button>
-            <button style="margin-left: 0.6em" id="throw">throw</button>
+            <button id="clear">清除</button>
+            <button style="margin-left: 0.6em" id="throw">掷</button>
         </div>
     </div>
     <div id="canvas"></div>
