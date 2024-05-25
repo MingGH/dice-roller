@@ -12,13 +12,13 @@
 ##### 颜色
 通过在 URL 中添加 `color=<color>`，可以更改骰子的颜色。如果没有指定此参数，默认颜色为黑色。目前支持的颜色有：
 
-- White (#808080)
-- Blue (#1883db)
-- Red (#d10e00)
-- Green (#008a17)
-- Orange (#fc7b03)
-- Purple (#7d0099)
-- Brown (#593304)
+- white (#808080)
+- blue (#1883db)
+- red (#d10e00)
+- green (#008a17)
+- orange (#fc7b03)
+- purple (#7d0099)
+- brown (#593304)
 
 ##### 符号
 
